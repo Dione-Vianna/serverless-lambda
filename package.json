@@ -1,0 +1,21 @@
+{
+  "name": "nodeless",
+  "version": "0.0.1",
+  "description": "lambda serverless",
+  "main": "index.js",
+  "dependencies": {
+    "joi": "^17.4.1",
+    "nodemailer": "^6.6.2",
+    "nodemailer-smtp-transport": "^2.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "serverless deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/Dione-Vianna/serverless-lambda.git"
+  },
+  "author": "Dione-Vianna",
+  "license": "ISC"
+}

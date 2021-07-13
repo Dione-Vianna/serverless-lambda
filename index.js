@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
 const smtpTransport = require('nodemailer-smtp-transport');
-const Joi = require('@hapi/joi');
+const Joi = require('joi');
 
 const email = 'email@com';
 
